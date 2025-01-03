@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./multimedia/calculadora.png" type="image/png">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <div id="main-container">
+        <div id="title">Calculadora</div>
+        <div class="result-container">
+            <div class="data-input">
+                <div class="columna">
+                    <label for="numero-1" class="numberInt">Número 1:</label>
+                    <input type="number" id="numero-1">
+                </div>
+                <div class="columna">
+                    <label for="numero-2" class="numberInt">Número 2:</label>
+                    <input type="number" id="numero-2">
+                </div>
+                <div class="columna">
+                    <div class="result">
+                        <p>Tu resultado es:</p>
+                        <p class="final-result">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="operation">
+            <button class="suma calc">+</button>
+            <button class="resta calc">-</button>
+            <button class="multiplicacion calc">x</button>
+            <button class="division calc">÷</button>
+            <button class="igual calc">=</button>
+        </div>
+
+    </div>
+
+    <script src="./calculadora.js"></script>
+</body>
+</html>
